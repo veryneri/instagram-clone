@@ -1,0 +1,37 @@
+{
+  "name": "instagram-clone",
+  "version": "1.0.0",
+  "description": "Getting started with GraphQL: Instagram clone from scratch",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "lint": "eslint .",
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-recommended": "^4.0.0",
+    "nodemon": "^1.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veryneri/instagram-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veryneri/instagram-clone/issues"
+  },
+  "homepage": "https://github.com/veryneri/instagram-clone#readme"
+}
